@@ -1,5 +1,17 @@
 package ru.netology.mockitoproject;
 public class MovieManager {
+
+    public static void main(String[] args) {
+        String [] movies = {
+                "Film1",
+                "Film2",
+                "Film3",
+                "Film4",
+                "Film5",
+                "Film6",
+                "Film7",
+        };
+    }
     private String[] movies = new String[0];
     private int limit;
 
@@ -23,6 +35,7 @@ public class MovieManager {
     }
 
     public String[] findAll() {
+
         return movies;
     }
 
